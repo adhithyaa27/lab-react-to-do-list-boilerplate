@@ -16,7 +16,9 @@ class TodoItem extends React.Component{
                     }}
                      value={e}/>
                    
-                    <button  onClick={()=>{}}>DELETE ITEM</button>
+                   <button id="DELETEBUTTON" onClick={() => {
+                    deleteItem(index)
+                }}>DELETE ITEM</button>
                 </div>
 
             </>

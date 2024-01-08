@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    font-family: monospace;
+}
+
+#input{
+    height: 50px;
+    width: 300px;
+    border-radius: 5%;
+}
+
+#deletebutton{
+    height: 50px;
+    width: 300px;
+    border-radius: 5%;
+}
